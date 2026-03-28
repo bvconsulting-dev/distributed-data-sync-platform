@@ -1,0 +1,55 @@
+# Core async dependencies
+aiohttp>=3.8.0
+aiofiles>=23.0.0
+asyncio-mqtt>=0.13.0
+asyncpg>=0.28.0
+
+
+# Data validation and serialization
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Template engine
+Jinja2>=3.1.0
+
+# JSON handling
+orjson>=3.8.0
+
+# HTTP client enhancements
+httpx>=0.24.0
+
+# Configuration and secrets
+python-dotenv>=1.0.0
+
+# Logging and monitoring
+structlog>=23.0.0
+prometheus-client>=0.16.0
+
+# Testing dependencies
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.10.0
+aioresponses>=0.7.4
+
+# Development dependencies
+black>=23.0.0
+isort>=5.12.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Database migrations (if needed)
+alembic>=1.11.0
+
+# Utilities
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Security
+certifi>=2025.6.15
+cryptography>=41.0.0
+
+# Performance monitoring
+psutil>=5.9.0
+
+# Redis support
+redis>=5.0.0
